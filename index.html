@@ -11,8 +11,9 @@
         var cip=!1,ifr=document.getElementById("ifr"),ovr=document.getElementById("ovr"),overlay=!0;document.onkeyup=function(e){17==e.which&&(cip=!1)},document.onkeydown=function(e){17==e.which?cip=!0:77==e.which&&cip&&("none"!==ifr.style.display?(ifr.style.display="none",!0===overlay&&(ovr.style.display="none")):(ifr.style.display="initial",!0===overlay&&(ovr.style.display="block")))};
         </script>
         <div class="wrapper">
-            <header>
- <center>               <div id="intro">Al<span>loy</span> Pro<span>xy</span></div>  </center>    </header>
+            <center> <header>
+                <div id="intro">Al<span>loy</span> Pro<span>xy</span></div>
+            </header> </center>
             <div class="container">
                 <div class="form">
                     <input placeholder="https://example.org/" id="url">
